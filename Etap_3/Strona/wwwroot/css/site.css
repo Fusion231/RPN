@@ -1,0 +1,147 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+.container{
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  
+}
+.welcome-message{
+  
+  position: relative;
+  padding: 100px 30px 45px 30px;
+  min-height: 500px;
+  background-image: url("https://4.bp.blogspot.com/-yMlSVLuioXA/WOtLhiKlE6I/AAAAAAAAHz8/yu8bvkpr8sY7r1rL9zEhXFb1Z6BkRPyqQCLcB/s1600/Animacja%2Bwarto%25C5%259Bci%2Bfunkcji%2Btrygonometrycznych%2Bsinus%2Bi%2Bcosinus.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px 0 32px;
+}
+/* Side Bar */
+#sideMenu {
+  width: 240px;
+  height: 100%;
+  padding: 30px;
+  border-right: 1px solid #111;
+  display: table-cell;
+  vertical-align: top;
+  color: #fff;
+  background:#000;
+  position: fixed;
+}
+.menu {
+  list-style: none;
+  margin:  24px 0;
+  padding: 0;
+}
+.menu li {
+  display: block;
+  height: 30px;
+  width: 100%;
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: 200;
+  color: rgba(255, 255, 255, .6);
+  position: relative;
+}
+.menu li:hover {
+  color: #239ae3;
+}
+.menu li:first-child {
+  height: 35px;
+  line-height: 35px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+.addCategory {
+  font-size: 13px;
+  font-weight: 200;
+  color: rgba(255, 255, 255, .2);
+}
+.addCategory:hover {
+  color: #fff;
+}
+#Token{
+  margin: 0 auto;
+  text-align: center;
+  width: auto;
+  padding-top: 20%;
+}
+.bor{
+  background: #000000bf;
+  padding: 40px;
+  color:white;
+}
+#wynik{
+  color:green;
+  font-size: 30px;
+}

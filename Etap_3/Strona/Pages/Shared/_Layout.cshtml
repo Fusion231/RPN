@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Funkcji</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body> 
+
+    <header>
+        <div id="sideMenu">
+    <h1>Maciej Roslaniec</h1>
+
+    <ul class="menu">
+      <li>Strona Główna</li>
+      <a class="nav-link text-dark" asp-area="" asp-page="/Index"><li>Home</li></a>
+    </ul>
+
+    <ul class="menu">
+      <li>Funkcje</li>
+      <a class="nav-link text-dark" asp-area="" asp-page="/TokensFormula"><li>Tokens Formula</li></a>
+      <a class="nav-link text-dark" asp-area="" asp-page="/Calculate"><li>Calculate</li></a>
+      <a class="nav-link text-dark" asp-area="" asp-page="/CalculateXY"><li>Calculate XY</li></a>
+    </ul>
+  </div>
+        
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2020 - Strona - <a asp-area="" asp-page="/Privacy">Prywatność</a> Maciej Rosłaniec
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/canvasjs.min.js"></script>
+    <script src="~/js/jquery-1.11.3.min.js"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

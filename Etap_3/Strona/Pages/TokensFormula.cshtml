@@ -1,0 +1,17 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Tokens Formula";
+}
+<section id="Formula">
+    <div id="Token">
+        <div class="bor">
+            <p>Wpisz formułe</p>
+            <input type="text" name="formulawartosc" placeholder="sin+x" id="formulawartosc" />
+            <button type="submit" onclick="TokensFunkcja()">Narysuj</button>
+        </div>
+        <hr>
+        <div id="wynik"></div>
+    </div>
+    
+</section>

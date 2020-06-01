@@ -1,0 +1,24 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Calculate XY";
+}
+<section id="Formula">
+    <div id="Token">
+        <div class="bor">
+            Wpisz Formułe
+            <input type="text" name="formulawartosc" value="4+sin(x-9)" id="formulawartosc" />
+            Wpisz From
+            <input type="text" name="formulawartoscfrom" value="1" id="formulawartoscfrom" /><br/>
+            Wpisz to
+            <input type="text" name="formulawartoscto" value="4" id="formulawartoscto" />
+            Wpisz Range
+            <input type="text" name="formulawartoscrange"  value="3" id="formulawartoscrange" /><br/>
+            <button style="margin-top:25px;" type="submit" onclick="CalculateXY()">Narysuj</button>
+           
+        </div>
+         <div id="wynik"></div>
+    <div id="Wykres"></div>
+    </div>
+    
+</section>
